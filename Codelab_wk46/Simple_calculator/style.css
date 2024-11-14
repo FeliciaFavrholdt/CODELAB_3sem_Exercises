@@ -1,3 +1,4 @@
+/* General Body Styling */
 body {
     display: flex;
     flex-direction: column;
@@ -13,6 +14,7 @@ body {
     background-repeat: no-repeat; 
 }
 
+/* Header Styling */
 header {
     width: 100%;
     text-align: center;
@@ -21,22 +23,22 @@ header {
 }
 
 h1 {
-    color: #0277bd;
-    font-size: 2em;
-    margin: 10px 0;
+    color: #ee8d15; /* Bright orange */
+    font-size: 100px;
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
     font-size: 1em;
-    color: #0288d1;
+    color: #94ad12; /* Green */
     margin: 0;
     margin: 10px 0;
     font-weight: normal;
     opacity: 0.8;
 }
 
+/* Main Container Styling */
 #container {
     width: 250px;
     padding: 15px;
@@ -45,30 +47,33 @@ h2 {
     background-color: #ffffff;
 }
 
+/* Display Styling */
 #display {
     height: 50px;
     margin-bottom: 10px;
     padding: 10px;
     font-size: 1.5em;
-    background-color: #b3e5fc;
-    color: #01579b;
+    background-color: #e6f4c3; /* Light green background */
+    color: #94ad12; /* Green text */
     border-radius: 5px;
     text-align: right;
     overflow: hidden;
 }
 
+/* Button Grid */
 #buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
+/* General Button Styling */
 .t1 {
     width: 100%;
     height: 50px;
     font-size: 1.25em;
-    color: #01579b;
-    background-color: #e1f5fe;
+    color: #ee8d15; /* Orange text */
+    background-color: #f8f0d1; /* Light orange background */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -78,47 +83,53 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Operator Buttons */
 .t1:nth-child(4n) {
-    background-color: #039be5;
-    color: white;
+    background-color: #ee8d15; /* Orange */
+    color: #ffffff;
 }
 
+/* Calculate Button */
 #calculate {
-    background-color: #0277bd;
-    color: white;
+    background-color: #94ad12; /* Green */
+    color: #ffffff;
 }
 
+/* Hover Effects */
 .t1:hover {
-    background-color: #b3e5fc;
+    background-color: #e6f4c3; /* Light green hover */
 }
 
 .t1:nth-child(4n):hover {
-    background-color: #0288d1;
+    background-color: #cc7a11; /* Darker orange for operator hover */
 }
 
 #calculate:hover {
-    background-color: #01579b;
+    background-color: #7b8f0e; /* Darker green */
 }
 
+/* Button Active Effect */
 .t1:active {
     transform: scale(0.95);
 }
 
+/* Clear Button */
 #clear {
-    background-color: #42a5f5; /* Blue color for Clear button */
+    background-color: #ee8d15; /* Orange for Clear */
     color: white;
     transition: background-color 0.2s ease;
     margin-bottom: 10px;
 }
 
 #clear:hover {
-    background-color: #ffb74d; /* Orange color on hover */
+    background-color: #cc7a11; /* Darker orange on hover */
 }
 
+/* Footer Styling */
 footer {
     margin-top: 20px;
     text-align: center;
-    color: #01579b;
+    color: #94ad12; /* Green */
     font-size: 0.8em;
     opacity: 0.8;
 }

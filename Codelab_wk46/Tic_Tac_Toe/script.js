@@ -24,8 +24,12 @@ function handleCellClick(event) {
     if (board[index] === null && isGameActive) {
         board[index] = currentPlayer;
         cell.innerText = currentPlayer;
-        checkForWin();
-        togglePlayer();
+        checkForWin(); // Check for a win after updating the cell
+
+        // Only toggle the player if the game is still active
+        if (isGameActive) {
+            togglePlayer();
+        }
     }
 }
 

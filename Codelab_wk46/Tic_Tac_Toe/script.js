@@ -1,7 +1,7 @@
 // Game Variables
 let board = Array(9).fill(null);
 let currentPlayer = 'X';
-let isGameActive = true;
+let isGameActive = true; // Game is active by default
 
 // DOM Elements
 const cells = document.querySelectorAll('.cell');

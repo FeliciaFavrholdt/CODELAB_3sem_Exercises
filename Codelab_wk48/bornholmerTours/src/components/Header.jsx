@@ -6,7 +6,7 @@ function Header() {
     <div className="header">
       <header>
         <img src={logo} alt="Bornholmer Tours logo" />
-        <h1 className="title">Bornholmer Tours</h1>
+        <h1 className="title">bornholmer tours</h1>
         <NavLink
           to="/login"                   
           className={({ isActive }) => (isActive ? "active login" : "login")}

@@ -6,7 +6,7 @@ let isGameActive = true; // Game is active by default
 // DOM Elements
 const cells = document.querySelectorAll('.cell');
 const gameInfo = document.getElementById('game-info');
-const resetButton = document.getElementById('reset');
+const resetButton = document.getElementById('reset'); 
 
 // Winning Combinations
 const winningCombinations = [

@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 import Cell from './Cell';
 
 //cells is an array of 9 elements, each element is either 'X', 'O' or null

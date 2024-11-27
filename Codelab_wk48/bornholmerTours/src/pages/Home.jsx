@@ -1,10 +1,8 @@
 import trollsImg from "../assets/trolls.png";
-import Header from "../components/Header";
 
-const HomePage = () => {
+function Home () {
   return (
-    <>
-      <div>
+      <div class="home">
         <p>
           Velkommen til Bornholmer Tours – Din guide til Bornholms bedste
           outdoor oplevelser Hos Bornholmer Tours brænder vi for at dele det
@@ -27,8 +25,7 @@ const HomePage = () => {
 
         <img src={trollsImg} alt="Trolls" />
       </div>
-    </>
   );
 };
 
-export default HomePage;
+export default Home;

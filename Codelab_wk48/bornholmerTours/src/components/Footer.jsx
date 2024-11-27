@@ -1,13 +1,11 @@
-import React from "react";
-
-const Footer = () => {
+function Footer() {
   return (
-    <>
-    <footer>
-      <p>© 2024 Bornholmer Tours. All rights reserved.</p>
-    </footer>
-    </>
+    <div className="footer">
+      <footer>
+        <p>© 2024 Bornholmer Tours. All rights reserved.</p>
+      </footer>
+    </div>
   );
-};
+}
 
 export default Footer;

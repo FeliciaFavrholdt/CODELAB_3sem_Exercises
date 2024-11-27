@@ -44,14 +44,19 @@ body {
   }
   
   aside {
+    display: flex;
     background-color: #d9d9d9;
     width: 250px;
+    height: 100%;
     padding: 1rem;
   }
   
   main {
+    width: 80%;
+    display: flex;
     flex: 1;
     padding: 1rem;
+
   }
   
   footer {

@@ -3,7 +3,7 @@ import trollsImg from "../assets/trolls.png";
 function Home () {
   return (
       <div class="home">
-        <p>
+       {/*  <p>
           Velkommen til Bornholmer Tours – Din guide til Bornholms bedste
           outdoor oplevelser Hos Bornholmer Tours brænder vi for at dele det
           bedste af Bornholm med dig! Øen, kendt som "Solskinsøen", byder på
@@ -21,9 +21,9 @@ function Home () {
           aktivitetsniveau. Kom og udforsk Bornholm med os – vi garanterer, at
           du vil tage hjem med minder for livet. Velkommen til Bornholmer Tours!
           🌞
-        </p>
+        </p> */}
 
-        <img src={trollsImg} alt="Trolls" />
+        {/* <img src={trollsImg} alt="Trolls" /> */}
       </div>
   );
 };

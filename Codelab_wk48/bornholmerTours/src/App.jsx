@@ -8,14 +8,15 @@ import {
 //pages
 import Home from "./pages/Home";
 import About from "./pages/About";
-
-//layouts
-import RootLayout from "./layouts/RootLayout";
 import Login from "./pages/Login";
 import Travels from "./pages/Travels";
 import Admin from "./pages/Admin";
 import UserAdmin from "./pages/UserAdmin";
 import ViewUser from "./pages/ViewUser";
+import ChangeRoles from "./pages/ChangeRoles";
+
+//layouts
+import RootLayout from "./layouts/RootLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

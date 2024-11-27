@@ -1,0 +1,89 @@
+/* Updated CSS */
+
+.header {
+  background-color: #d9d9d9;
+  color: #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* Added white space */
+}
+
+.header .logo {
+  display: inline;
+}
+
+header h1 {
+  display: inline;
+  text-align: center;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.login {
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #d9d9d9;
+  color: #000000;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px; /* Added white space */
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+  gap: 10px; /* Added white space between sidebar and content-box */
+}
+
+.sidebar {
+  display: flex;
+  width: 20%; 
+  height: auto;
+  background-color:  #d9d9d9;
+  color: #000000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.content-box {
+  display: flex;
+  width: 80%;
+  height: auto;
+  background-color:  #d9d9d9;
+  color: #000000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color:  #d9d9d9;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin-top: 10px; /* Added white space */
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+li a:hover {
+  color: #f33534;
+}

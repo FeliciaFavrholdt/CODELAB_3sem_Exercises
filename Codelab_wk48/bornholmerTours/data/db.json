@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "userid": 1,
+      "login": "StarGazer",
+      "password": "xbvg2hq1",
+      "roles": ["user"]
+    },
+    {
+      "userid": 2,
+      "login": "AdminJane",
+      "password": "securepassword",
+      "roles": ["admin", "user"]
+    },
+    {
+      "userid": 3,
+      "login": "TheManOfSteel",
+      "password": "kryptonite",
+      "roles": ["superman", "user"]
+    }
+  ]
+}

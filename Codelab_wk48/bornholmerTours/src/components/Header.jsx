@@ -8,10 +8,10 @@ function Header() {
         <img src={logo} alt="Bornholmer Tours logo" />
         <h1 className="title">Bornholmer Tours</h1>
         <NavLink
-          to="/login"
+          to="/login"                   
           className={({ isActive }) => (isActive ? "active login" : "login")}
         >
-          Login
+          Login   
         </NavLink>
       </header>
     </div>

@@ -11,12 +11,23 @@ import About from "./pages/About";
 
 //layouts
 import RootLayout from "./layouts/RootLayout";
+import Login from "./pages/Login";
+import Travels from "./pages/Travels";
+import Admin from "./pages/Admin";
+import UserAdmin from "./pages/UserAdmin";
+import ViewUser from "./pages/ViewUser";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
+      <Route path="admin" element={<Admin />} />      
+      <Route path="user-admin" element={<UserAdmin />} /> 
+      <Route path="view-user" element={<ViewUser />} />      
+      <Route path="travels" element={<Travels />} />
+      <Route path="login"  element={<Login />} />      
+      <Route path="change-roles"  element={<ChangeRoles />} />      
     </Route>,
   ),
 );

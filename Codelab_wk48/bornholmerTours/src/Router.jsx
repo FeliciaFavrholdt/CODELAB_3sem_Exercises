@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import AdminPage from "./pages/AdminPage";
 import TravelsPage from "./pages/TravelsPage";
+import LoginPage from "./pages/LoginPage";
 import Layout from "./components/Layout";
 
 const router = createBrowserRouter(
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
       <Route path="about" element={<AboutPage />} />
       <Route path="admin" element={<AdminPage />} />
       <Route path="travels" element={<TravelsPage />} />
+      <Route path="login" element={<LoginPage />} />
     </Route>,
   ),
 );

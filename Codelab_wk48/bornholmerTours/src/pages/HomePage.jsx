@@ -1,4 +1,5 @@
-import trollsImg from "../assets/images/trolls.png";
+import trollsImg from "../assets/trolls.png";
+import Header from "../components/Header";
 
 const HomePage = () => {
   return (

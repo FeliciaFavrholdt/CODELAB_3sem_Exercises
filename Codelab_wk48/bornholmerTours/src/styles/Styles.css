@@ -1,18 +1,18 @@
 body {
+    background: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
   header {
-    background-color: #ffffff;
-    color: #f33534;
+    background-color: #d9d9d9;
     padding: 1rem;
     text-align: center;
   }
   
   nav {
-    background-color: #333;
+    background-color: #d9d9d9;
     padding: 0.5rem 1rem;
   }
   
@@ -28,7 +28,7 @@ body {
   }
   
   nav ul li a {
-    color: white;
+    color: #000000;
     text-decoration: none;
   }
   
@@ -38,12 +38,13 @@ body {
   }
   
   .main-content {
+    background: #d9d9d9;
     display: flex;
     flex: 1;
   }
   
   aside {
-    background-color: #f4f4f4;
+    background-color: #d9d9d9;
     width: 250px;
     padding: 1rem;
   }

@@ -7,6 +7,7 @@ import Sidebar from "./SideBar";
 
 const Layout = () => {
   return (
+    <>
     <div className="layout">
       <Header />
       <Navbar />
@@ -18,6 +19,7 @@ const Layout = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 
